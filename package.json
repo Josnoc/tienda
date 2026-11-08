@@ -1,0 +1,23 @@
+{
+    "name": "tienda",
+    "version": "1.0.0",
+    "description": "Semana07",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "api"
+    ],
+    "author": "Santiago Jimenez",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-multiparty": "^2.2.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.9.20",
+        "nodemon": "^2.0.4"
+    }
+}
